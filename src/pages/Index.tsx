@@ -1,7 +1,7 @@
 import { React } from 'react'
-import './styles/index.css'
+import '../styles/index.css'
 
-function App() {
+function Index() {
 
   return (
     <>
@@ -12,4 +12,4 @@ function App() {
   )
 }
 
-export default App
+export default Index
