@@ -1,0 +1,22 @@
+.image {
+  border-radius: 800px;
+  filter: grayscale(80%) brightness(1.1);
+}
+
+.imageContainer {
+  background-image: url(/src/public/profilepic.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 800px;
+  filter: grayscale(10%) brightness(1.1);
+  height: 300px;
+  width: 300px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .imageContainer {
+    height: 350px;
+    width: 350px;
+  }
+}
