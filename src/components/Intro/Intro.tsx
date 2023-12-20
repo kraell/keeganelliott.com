@@ -1,13 +1,13 @@
 
 import styles from "./Intro.module.css";
-import Socials from "components/Socials/Socials";
-import ProfilePicture from "components/ProfilePicture/ProfilePicture";
+import Socials from "../Socials/Socials";
+import ProfilePicture from "../ProfilePicture/ProfilePicture";
 
 
 export default function Intro() {
     return (
         <>
-        <div className={styles.container}>
+        <div className={styles.container + " border-b"}>
             <div className={styles.innerContainer}>
                 <div className={styles.column1}>
                     <div className={styles.title}>Keegan Elliott</div>
@@ -22,7 +22,7 @@ export default function Intro() {
                             Welcome to my digital garden.&#129716;
                             <br />
                             <br />
-                            [It's a bit sparse right now, but the bits are being sown.]
+                            [It's bit sparse right now, but the bits are being sown.]
                         </div>
                     </div>
                     <div className={styles.socialLinks}>

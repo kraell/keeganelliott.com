@@ -24,7 +24,7 @@ export default function Socials() {
                 <FontAwesomeIcon icon={faGithub} />
                 {/* <FontAwesomeIcon icon={faGithubAlt} /> */}
             </a>
-            <a className={styles.link} href="/src/public/resume.pdf" target="_blank" rel="noopener noreferrer">
+            <a className={styles.link} href="/resume.pdf" target="_blank" rel="noopener noreferrer">
                 {/* <FontAwesomeIcon icon={faFile} /> */}
                 <FontAwesomeIcon icon={faFileAlt} />
             </a>
