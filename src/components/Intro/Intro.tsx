@@ -13,7 +13,7 @@ export default function Intro() {
                     <div className={styles.title}>Keegan Elliott</div>
                     <div className={styles.description}>
                         <div>
-                            Software engineer just trying to learn cool stuff.
+                            Software engineer just trying to build cool stuff.
                             <br />
                             Neuroscience enthusiast.
                             <br />
