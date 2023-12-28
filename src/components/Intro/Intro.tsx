@@ -22,7 +22,7 @@ export default function Intro() {
                             Welcome to my digital garden.&#129716;
                             <br />
                             <br />
-                            [It's bit sparse right now, but the bits are being sown.]
+                            [It's a tad sparse right now, but the bits are being sown.]
                         </div>
                     </div>
                     <div className={styles.socialLinks}>
